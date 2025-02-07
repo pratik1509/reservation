@@ -1,0 +1,3 @@
+obj/Debug/net9.0/Proto/Movies.cs \
+obj/Debug/net9.0/Proto/MoviesGrpc.cs: /Users/pratik/.nuget/packages/grpc.tools/2.69.0/build/native/include/google/protobuf/any.proto\
+ Proto/movies.proto

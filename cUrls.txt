@@ -1,0 +1,122 @@
+Please add the cURLs of your tests here:
+
+--------- PS - YOU NEED TO RUN DOCKER FOR INTEGRATION AND UNIT TEST CASES --------------
+
+All APIs return common response in format
+
+----------------- Common Response Format --------------------------
+{
+  "success": true,
+  "message": "Operation successful",
+  "data": {
+    // result data
+  }
+}
+
+----------------- cURLs (app running on Docker) --------------------------------
+
+Please run the services on Docker using 
+
+1> docker-compose down
+
+2> docker-compose up
+
+--> new app service may take time to start as it waits for Redis service to be available.
+--> new app service will serve on https://localhost:8444
+
+
+1> Create showtime
+
+    curl -X 'POST' \
+    'https://localhost:8444/api/v1/Showtime' \
+    -H 'accept: */*' \
+    -H 'Content-Type: application/json' \
+    -d '{
+    "imdbId": "ID-test1",
+    "sessionDate": "2025-02-04T15:04:55.820Z",
+    "auditoriumId": 2
+    }'
+
+2> Create reservation  (Use the showtimeId received in response of create showtime API)
+
+    curl -X 'POST' \
+    'https://localhost:8444/api/v1/Reservation' \
+    -H 'accept: */*' \
+    -H 'Content-Type: application/json' \
+    -d '{
+    "showtimeId": 2,
+    "auditoriumId": 2,
+    "seats": [
+        {
+            "rowNumber": 1,
+            "seatNumber": 1
+        }
+    ]
+    }'
+
+3> Try to book same seats again (Before reservation expires)
+
+    curl -X 'POST' \
+    'https://localhost:8444/api/v1/Reservation' \
+    -H 'accept: */*' \
+    -H 'Content-Type: application/json' \
+    -d '{
+    "showtimeId": 2,
+    "auditoriumId": 2,
+    "seats": [
+        {
+        "rowNumber": 1,
+        "seatNumber": 1
+        }
+    ]
+    }'
+
+4> Try to book seats that are not contiguous
+
+    curl -X 'POST' \
+    'https://localhost:8444/api/v1/Reservation' \
+    -H 'accept: */*' \
+    -H 'Content-Type: application/json' \
+    -d '{
+    "showtimeId": 2,
+    "auditoriumId": 2,
+    "seats": [
+        {
+        "rowNumber": 1,
+        "seatNumber": 2
+        },
+    {
+        "rowNumber": 1,
+        "seatNumber": 4
+        }
+    ]
+    }'
+
+5> Try to book a seat that is in different rows (should fail as seats are not contiguous)
+
+    curl -X 'POST' \
+    'https://localhost:8444/api/v1/Reservation' \
+    -H 'accept: */*' \
+    -H 'Content-Type: application/json' \
+    -d '{
+    "showtimeId": 2,
+    "auditoriumId": 2,
+    "seats": [
+        {
+        "rowNumber": 1,
+        "seatNumber": 2
+        },
+    {
+        "rowNumber": 2,
+        "seatNumber": 4
+        }
+    ]
+    }'
+
+6> Purchase  (PS - You have to use ReservationID received in response of successful call to Reservation API)
+
+    curl -X 'POST' \
+    'https://localhost:8444/api/v1/Purchase/37d16f7b-fef9-4c85-8d65-1da88fd1895a' \
+    -H 'accept: */*' \
+    -d ''
+

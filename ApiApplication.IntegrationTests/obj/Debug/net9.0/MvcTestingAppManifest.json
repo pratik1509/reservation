@@ -1,0 +1,6 @@
+{
+  "ApiApplication.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/pratik\/Projects\/Movies-api-challenge.1.0.2 (1)\/ApiApplication.Core",
+  "ApiApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/pratik\/Projects\/Movies-api-challenge.1.0.2 (1)\/ApiApplication",
+  "ApiApplication.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/pratik\/Projects\/Movies-api-challenge.1.0.2 (1)\/ApiApplication.Domain",
+  "ApiApplication.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/pratik\/Projects\/Movies-api-challenge.1.0.2 (1)\/ApiApplication.Infrastructure"
+}

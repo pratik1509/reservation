@@ -1,0 +1,11 @@
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/obj/Release/net9.0/ApiApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/obj/Release/net9.0/ApiApplication.Domain.AssemblyInfoInputs.cache
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/obj/Release/net9.0/ApiApplication.Domain.AssemblyInfo.cs
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/obj/Release/net9.0/ApiApplication.Domain.csproj.CoreCompileInputs.cache
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/obj/Release/net9.0/ApiApplication.Domain.dll
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/obj/Release/net9.0/refint/ApiApplication.Domain.dll
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/obj/Release/net9.0/ApiApplication.Domain.pdb
+/tmp/build/ApiApplication.Domain.deps.json
+/tmp/build/ApiApplication.Domain.dll
+/tmp/build/ApiApplication.Domain.pdb
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/obj/Release/net9.0/ref/ApiApplication.Domain.dll

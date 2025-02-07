@@ -1,0 +1,58 @@
+[
+    {
+      "id": "ID-tt0111161",
+      "rank": "1",
+      "title": "The Shawshank Redemption",
+      "fullTitle": "The Shawshank Redemption (1994)",
+      "year": "1994",
+      "image": "https://example.com/shawshank.jpg",
+      "crew": "Frank Darabont (Director), Tim Robbins, Morgan Freeman",
+      "imDbRating": "9.3",
+      "imDbRatingCount": "2700000"
+    },
+    {
+      "id": "ID-tt0068646",
+      "rank": "2",
+      "title": "The Godfather",
+      "fullTitle": "The Godfather (1972)",
+      "year": "1972",
+      "image": "https://example.com/godfather.jpg",
+      "crew": "Francis Ford Coppola (Director), Marlon Brando, Al Pacino",
+      "imDbRating": "9.2",
+      "imDbRatingCount": "1900000"
+    },
+    {
+      "id": "ID-tt0468569",
+      "rank": "3",
+      "title": "The Dark Knight",
+      "fullTitle": "The Dark Knight (2008)",
+      "year": "2008",
+      "image": "https://example.com/darkknight.jpg",
+      "crew": "Christopher Nolan (Director), Christian Bale, Heath Ledger",
+      "imDbRating": "9.0",
+      "imDbRatingCount": "2600000"
+    },
+    {
+      "id": "ID-tt0071562",
+      "rank": "4",
+      "title": "The Godfather Part II",
+      "fullTitle": "The Godfather Part II (1974)",
+      "year": "1974",
+      "image": "https://example.com/godfather2.jpg",
+      "crew": "Francis Ford Coppola (Director), Al Pacino, Robert De Niro",
+      "imDbRating": "9.0",
+      "imDbRatingCount": "1300000"
+    },
+    {
+      "id": "ID-tt0050083",
+      "rank": "5",
+      "title": "12 Angry Men",
+      "fullTitle": "12 Angry Men (1957)",
+      "year": "1957",
+      "image": "https://example.com/12angrymen.jpg",
+      "crew": "Sidney Lumet (Director), Henry Fonda, Lee J. Cobb",
+      "imDbRating": "9.0",
+      "imDbRatingCount": "800000"
+    }
+  ]
+  

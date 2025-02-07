@@ -1,0 +1,15 @@
+/tmp/build/ApiApplication.Infrastructure.deps.json
+/tmp/build/ApiApplication.Infrastructure.runtimeconfig.json
+/tmp/build/ApiApplication.Infrastructure.dll
+/tmp/build/ApiApplication.Infrastructure.pdb
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/Release/net9.0/ApiApplication.Infrastructure.csproj.AssemblyReference.cache
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/Release/net9.0/ApiApplication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/Release/net9.0/ApiApplication.Infrastructure.AssemblyInfoInputs.cache
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/Release/net9.0/ApiApplication.Infrastructure.AssemblyInfo.cs
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/Release/net9.0/ApiApplication.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/Release/net9.0/ApiAppli.84D41B41.Up2Date
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/Release/net9.0/ApiApplication.Infrastructure.dll
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/Release/net9.0/refint/ApiApplication.Infrastructure.dll
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/Release/net9.0/ApiApplication.Infrastructure.pdb
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/Release/net9.0/ApiApplication.Infrastructure.genruntimeconfig.cache
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/Release/net9.0/ref/ApiApplication.Infrastructure.dll

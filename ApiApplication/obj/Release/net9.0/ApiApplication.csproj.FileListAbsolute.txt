@@ -1,0 +1,31 @@
+/tmp/build/appsettings.Development.json
+/tmp/build/appsettings.json
+/tmp/build/ApiApplication.staticwebassets.endpoints.json
+/tmp/build/ApiApplication
+/tmp/build/ApiApplication.deps.json
+/tmp/build/ApiApplication.runtimeconfig.json
+/tmp/build/ApiApplication.dll
+/tmp/build/ApiApplication.pdb
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ApiApplication.csproj.AssemblyReference.cache
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ApiApplication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ApiApplication.AssemblyInfoInputs.cache
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ApiApplication.AssemblyInfo.cs
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ApiApplication.csproj.CoreCompileInputs.cache
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ApiApplication.MvcApplicationPartsAssemblyInfo.cs
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ApiApplication.MvcApplicationPartsAssemblyInfo.cache
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/scopedcss/bundle/ApiApplication.styles.css
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/staticwebassets.build.json
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/staticwebassets.development.json
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/staticwebassets.build.endpoints.json
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/staticwebassets/msbuild.ApiApplication.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/staticwebassets/msbuild.ApiApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/staticwebassets/msbuild.build.ApiApplication.props
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/staticwebassets/msbuild.buildMultiTargeting.ApiApplication.props
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/staticwebassets/msbuild.buildTransitive.ApiApplication.props
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/staticwebassets.pack.json
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ApiAppli.B6B73EA0.Up2Date
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ApiApplication.dll
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/refint/ApiApplication.dll
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ApiApplication.pdb
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ApiApplication.genruntimeconfig.cache
+/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/Release/net9.0/ref/ApiApplication.dll

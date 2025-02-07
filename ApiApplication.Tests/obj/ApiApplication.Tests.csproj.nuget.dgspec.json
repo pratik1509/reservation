@@ -1,0 +1,419 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Tests/ApiApplication.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Core/ApiApplication.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Core/ApiApplication.Core.csproj",
+        "projectName": "ApiApplication.Core",
+        "projectPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Core/ApiApplication.Core.csproj",
+        "packagesPath": "/Users/pratik/.nuget/packages/",
+        "outputPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pratik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/ApiApplication.Domain.csproj": {
+                "projectPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/ApiApplication.Domain.csproj"
+              },
+              "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/ApiApplication.Infrastructure.csproj": {
+                "projectPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/ApiApplication.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/ApiApplication.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/ApiApplication.Domain.csproj",
+        "projectName": "ApiApplication.Domain",
+        "projectPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/ApiApplication.Domain.csproj",
+        "packagesPath": "/Users/pratik/.nuget/packages/",
+        "outputPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pratik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/ApiApplication.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/ApiApplication.Infrastructure.csproj",
+        "projectName": "ApiApplication.Infrastructure",
+        "projectPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/ApiApplication.Infrastructure.csproj",
+        "packagesPath": "/Users/pratik/.nuget/packages/",
+        "outputPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pratik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/ApiApplication.Domain.csproj": {
+                "projectPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Domain/ApiApplication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.29.3, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.67.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.69.0, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Tests/ApiApplication.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Tests/ApiApplication.Tests.csproj",
+        "projectName": "ApiApplication.Tests",
+        "projectPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Tests/ApiApplication.Tests.csproj",
+        "packagesPath": "/Users/pratik/.nuget/packages/",
+        "outputPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pratik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/ApiApplication.csproj": {
+                "projectPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/ApiApplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/ApiApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/ApiApplication.csproj",
+        "projectName": "ApiApplication",
+        "projectPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/ApiApplication.csproj",
+        "packagesPath": "/Users/pratik/.nuget/packages/",
+        "outputPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pratik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Core/ApiApplication.Core.csproj": {
+                "projectPath": "/Users/pratik/Projects/Movies-api-challenge.1.0.2 (1)/ApiApplication.Core/ApiApplication.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+services:
+  api:
+    image: lodgify/movies-api:3
+    ports:
+      - "7172:80"
+      - "7443:443"
+    environment:      
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/app/aspnetapp.pfx
+    volumes:
+      - ./Data/movies-db.json:/app/movies-db.json
+  cache:
+    image: "redis"
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      retries: 10
+      timeout: 3s
+  new_service:
+    image: pratik1509/myapp:latest
+    environment:
+      - Redis__ConnectionString=cache:6379
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/app/aspnetapp.pfx
+    ports:
+      - "8081:80"
+      - "8444:443"
+    depends_on:
+      cache:
+        condition: service_healthy
+    volumes:
+      - ./Certs/aspnetapp.pfx:/app/aspnetapp.pfx
