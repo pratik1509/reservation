@@ -1,36 +1,24 @@
 ## Movies challenge
-Welcome to the tech challenge for Lodgify’s Backend developers candidates.
-
----
-
-Please follow the instructions included here. When you are finished, zip it, use a cloud service to upload it and send the link to us by **email**.
-(Remeber to set the zip file permission to **Read-only to anyone**, we suggest Google Drive, but Dropbox, OneDrive, etc is also ok.)
-
-Thank you and good luck!
 
 ---
 
 ## Context
 
-We want a C# .Net Core Web Application API project that meets our requirements. We provide you with the solution skeleton and a few features implemented to save time.
+We want a C# .Net Core Web Application API project that meets our requirements.
 
-You will find the Data layer is implemented and is instructed to be an In-Memory Database. 
+You will find the Data layer is implemented and is an In-Memory Database. 
 
 The application represents a Cinema. We want to manage the showtimes of the cinema, getting some data from the **[Provided API](http://localhost:7172/swagger/index.html).**
 
-The test includes a docker-compose with Redis and the provided Api, you will need Docker to be able run them.
+The test includes a **docker-compose** with **Redis** and the provided Api, you will need Docker to be able run them.
 
-We only want the following features:
+It has following features:
 
 - Create showtimes.
 - Reserve seats.
 - Buy seats.
 
-Note that we also expect you to provide test coverage for the implemented features.
-
 ---
-
-## Implementation instructions
 
 ## Starting the API
 
@@ -69,30 +57,14 @@ docker-compose down
     
 ### API communication with ProvidedApi
 
-You can use the HTTP API or the GRPC API, you should check the [Swagger](http://localhost:7172/swagger/index.html) for more info. We know that the GRPC implementation is faster. But it is not working right now. You can fix it and use it.
+It uses the  **GRPC** API, you should check the [Swagger](http://localhost:7172/swagger/index.html) for more info.
 
-The solution includes the proto of Provided API and a small piece of code that tries to connect with the GRPC API, but it does not work.
+The solution includes the proto of Provided API and a small piece of code that tries to connect with the GRPC API.
 
 ### Cache
 
-We will like to have a cache layer to cache the response from the Provided API because the API is slow and fails a lot. We will like to call the API and in case of failure try to use the cached response. The cache should use the Redis container provided in the docker-compose.yaml
+Application uses the **Redis** container provided in the docker-compose.yaml
 
 ### Execution Tracking
 
-We want to track the execution time of each request done to the service and log the time in the Console.
-By default, we set the loggers to log in to the Console, so you only need to worry where to put the Logger in the code.
-
-### Provided API
-
-We know that [**Provided API**](http://localhost:7172/swagger/index.html) may have some configuration issues, and we will like them to be found and fixed, if possible.
-
-## Add the Request to cUrls file
-
-We added a file next to this readme named `cUrls.txt`.
-Please add a curl command for each of the commands and queries that you implemented to this file.
-
----
-
-### Feedback
-
-You can add any feedback you want to send us in the file `Feedback.md` located next to this file. If you find something you cannot do or fix, add it to this document.
+We track the execution time of each request done to the service and log the time in the Console.
